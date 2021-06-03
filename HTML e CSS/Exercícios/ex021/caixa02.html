@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: #d3d3d3;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        header{
+            background-color: #8096AC;
+            color: #020F44;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        nav{
+            background-color: #020F44;
+            padding: 5px;
+        }
+
+        nav > a{
+            font-weight: bold;
+            color: white;
+            text-decoration: none;
+            margin-right: 10px;
+        }
+
+        a:hover{
+            text-decoration: underline;
+        }
+
+        main{
+            background-color: #2E5F92;
+            padding: 10px;
+            margin: 10px;
+            color: white;
+        }
+
+        section{
+            background-color: white;
+            color: black;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        footer{
+            background-color: #020F44;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: auto;
+        }
+
+        #nome{
+            text-decoration: underline;
+            font-style: italic;
+        }
+
+        #github{
+            color: #cae4ff;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+
+        #github:hover{
+            color: #86bcf3;
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Página Inicial</a>
+            <a href="#">Esportes</a>
+            <a href="#">Política</a>
+            <a href="#">Tecnologia</a>
+            <a href="#">Sobre</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Notícia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit modi eaque quod voluptatem corrupti ipsam officiis, necessitatibus ipsa beatae expedita odit magnam nam illum maxime veniam. Facilis quos suscipit cumque.</p>
+                <aside>Artigo feito por Carlos Augusto</aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Feito por <span id="nome">Hugo Fernandes</span>
+        <a id="github" href="https://github.com/HugoPFe" target="_blank">GitHub</a></p>
+    </footer>
+</body>
+</html>
