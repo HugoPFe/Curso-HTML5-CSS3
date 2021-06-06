@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(17, 16, 16);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    background-color: rgb(59, 59, 59);
+    color: white;
+    text-align: center;
+    width: 400px;
+    height: 300px;
+    margin: 25% auto;
+
+}
+
+#conteudo{
+    padding-top: 30px; 
+}
+
+#entradas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2px;
+}
+
+input{
+    height: 34px;
+    width: 200px;
+    font-size: larger;
+    margin: 2px;
+}
+
+input:hover{
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(39, 185, 47);
+}
+
+input:active{
+    border: 2px solid green;
+}
+
+button{
+    margin-top: 10px;
+    padding: 5px;
+    height: 50px;
+    width: 100px;
+}
