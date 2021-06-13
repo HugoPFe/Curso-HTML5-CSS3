@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+main{
+    background-color: white;
+    text-align: center;
+    width: 700px;
+    padding: 10px;
+    margin: 20px auto;
+}
+
+@font-face {
+    font-family: IDroid;
+    src: url(../fontes/idroid.otf) format('opentype');
+}
+
+.titulo{
+    font-family: 'IDroid';
+    color: green;
+    text-align: left;
+}
+
+h3{
+    background-image: linear-gradient(to right, #84e1ad, #ffffff00);
+    padding-left: 10px;
+}
+
+.destaque, .dsqexterno{
+    color: green;
+    font-weight: bold;
+}
+
+.dsqexterno::after{
+    content: "🔗";
+}
+
+img{
+    block-size: 230px;
+}

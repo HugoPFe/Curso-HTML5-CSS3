@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+footer{
+    background-color: #277549;
+    text-align: center;
+}
+
+footer>p{
+    color: #c9f9de;
+    padding: 5px;
+}
+
+.ftdestaque{
+    color: white;
+    font-weight: bold;
+}
