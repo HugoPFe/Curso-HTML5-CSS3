@@ -13,6 +13,8 @@
 }
 
 #menu > a:hover{
-    font-weight: bold;
+    background-color: #84e1ad;
+    padding: 2px;
+    border-radius: 3px;
     text-decoration: underline;
 }

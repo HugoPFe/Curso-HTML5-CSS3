@@ -3,9 +3,10 @@
 main{
     background-color: white;
     text-align: center;
-    width: 700px;
+    width: 780px;
     padding: 10px;
     margin: 20px auto;
+    box-shadow: 1px 1px 3px 1px #00000066;
 }
 
 @font-face {
@@ -29,10 +30,36 @@ h3{
     font-weight: bold;
 }
 
-.dsqexterno::after{
+.dsqexterno:after{
     content: "🔗";
 }
 
-img{
+.dsqexterno{
+    background-color: #277549;
+    padding: 2px;
+    border-radius: 3px;
+
+}
+
+.dsqexterno > a{
+    color: #84e1ad;
+    text-decoration: none;
+}
+
+.dsqexterno > a:hover{
+    text-decoration: underline;
+}
+
+.imgrespons{
     block-size: 230px;
+}
+
+article > p{
+    text-align: left;
+    text-indent: 2em;
+}
+
+#video{
+    background-color: #277549;
+    margin: auto;
 }
