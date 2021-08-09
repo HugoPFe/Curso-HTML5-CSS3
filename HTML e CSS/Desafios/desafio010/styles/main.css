@@ -116,17 +116,17 @@ main aside > h3 {
     border-radius: 10px 10px 0px 0px;
 }
 
-main .video {
+main div.video {
     background-color: var(--cor5);
-    margin: 0px 20px 30px 10px;
-    padding: 10px;
-    padding-bottom: 59%;
+    margin: 0px -20px 30px -20px;
+    position: relative;
+    padding-bottom: 59.5%;
 }
 
-main .video > iframe {
+main div.video > iframe {
     position: absolute;
-    top: 5px;
-    left: 5px;
+    top: 5%;
+    left: 5%;
     width: 90%;
     height: 90%;
 }
