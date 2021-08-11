@@ -1,46 +1,43 @@
 @charset "UTF-8";
 
-body{
+body {
     background-color: rgb(17, 16, 16);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-section{
+#conteudo {
     background-color: rgb(59, 59, 59);
     color: white;
     text-align: center;
+    border-radius: 20px;
     width: 400px;
     height: 300px;
-    margin: 25% auto;
-
-}
-
-#conteudo{
     padding-top: 30px; 
+    margin: 150px auto;
 }
 
-#entradas{
+#entradas {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 2px;
 }
 
-input{
+input {
     height: 34px;
     width: 200px;
     font-size: larger;
-    padding: 3px;
+    padding-left: 10px;
     margin: 2px;
     border-radius: 3px;
     border-width: 0px;
 }
 
-input:focus{
+input:focus {
     border: 5px solid rgb(41, 76, 104); 
 }
 
-button{
+button {
     margin-top: 10px;
     padding: 5px;
     height: 50px;
@@ -49,10 +46,11 @@ button{
     border-radius: 5px;
 }
 
-button:hover{
+button:hover {
     background-color: #7e7f7f;
 }
 
-button:active{
+button:active {
+    transition-duration: 1s;
     background-color: #9c9c9c;
 }
